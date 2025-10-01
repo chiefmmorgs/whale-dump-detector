@@ -15,7 +15,7 @@ max_number_of_operators = 2
 block_sample_size = 2
 private_trap = true
 whitelist = []
-address = "0x1EaD8623555733574F0df7B2961547C965d6Ce35"
+
 
 # Add your DRO whale dump detector
 [traps.whale_dump_dro]
