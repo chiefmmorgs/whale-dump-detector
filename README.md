@@ -27,6 +27,26 @@ This Drosera trap:
 
 ## Quick Start
 
+
+. Configure Enviorments
+Drosera CLI:
+```
+curl -L https://app.drosera.io/install | bash
+source /root/.bashrc
+droseraup
+```
+Foundry CLI:
+```
+curl -L https://foundry.paradigm.xyz | bash
+source /root/.bashrc
+foundryup
+```
+Bun:
+```
+curl -fsSL https://bun.sh/install | bash
+source /root/.bashrc
+```
+
 ### 1. Clone and Install
 
 ```bash
