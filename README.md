@@ -53,12 +53,6 @@ source /root/.bashrc
 git clone https://github.com/chiefmmorgs/whale-dump-detector.git
 cd whale-dump-detector
 
-# Install dependencies
-bun install
-
-# Install Drosera CLI
-curl -L https://app.drosera.io/install | bash
-droseraup
 ```
 
 ### 2. Configure Your Whale Addresses
