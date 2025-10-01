@@ -80,10 +80,8 @@ uint256 public constant THRESHOLD_PCT = 200000000000000000;
 ### 4. Create Environment File
 
 ```bash
-cp .env.example .env
 nano .env
 ```
-
 Add your private key:
 ```bash
 DROSERA_PRIVATE_KEY=0xYourPrivateKeyHere
