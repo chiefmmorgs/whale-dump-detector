@@ -41,17 +41,13 @@ curl -L https://foundry.paradigm.xyz | bash
 source /root/.bashrc
 foundryup
 ```
-Bun:
-```
-curl -fsSL https://bun.sh/install | bash
-source /root/.bashrc
-```
 
 ### 1. Clone and Install
 
 ```bash
 git clone https://github.com/chiefmmorgs/whale-dump-detector.git
 cd whale-dump-detector
+
 
 ```
 
@@ -96,6 +92,13 @@ DROSERA_PRIVATE_KEY=0xYourPrivateKeyHere
 ### 5. Build and Deploy
 
 ```bash
+
+curl -fsSL https://bun.sh/install | bash
+source ~/.bashrc
+
+# Install node modules (includes drosera-contracts and forge-std)
+bun install
+
 # Compile the contract
 forge build
 
